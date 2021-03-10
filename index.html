@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="app.css" rel="stylesheet" type="text/css">
+    <title>Médiatèque</title>
+</head>
+
+<body onload="start()">
+
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <nav class="header-nav">
+            <a href="index.html" class="nav-items">ACCUEIL</a>
+            <a href="#hero" class="nav-items">FILMS</a>
+        </nav>
+    </header>
+    <div id="hero">
+        <h1>Liste de films</h1>
+        <button class="ajouter">Ajouter un film</button>
+        <br>
+        <label for="filter">Filtrer par: </label>
+        <select id="filter">
+            <option id="titre" value="titre">Titre</option>
+            <option id="annee" value="annee">Année</option>
+        </select>
+    </div>
+
+    <main id="main">
+           </main>
+
+    <script src="app.js" defer>
+
+    </script>
+</body>
+
+</html>
